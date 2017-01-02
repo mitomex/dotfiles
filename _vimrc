@@ -10,7 +10,6 @@ set cursorcolumn
 " 未保存ファイルの終了時に保存確認を行う
 set confirm
 
-
 " バックアップファイルを作らない。
 set nobackup
 
@@ -26,16 +25,13 @@ set autoread
 " 入力中のコマンドをステータスに表示する。
 set showcmd
 
-" tern の設定
-let g:tern_map_keys=1
-let g:tern_show_argument_hints='on_hold'
-
 
 " vim のプラグインマネージャー dein.vim の設定
 " https://github.com/Shougo/dein.vim
 if &compatible
   set nocompatible
 endif
+
 set runtimepath+=~/Works/Apps/dein/repos/github.com/Shougo/dein.vim
 
 call dein#begin('~/Works/Apps/dein/')
