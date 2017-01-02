@@ -26,6 +26,11 @@ set autoread
 set showcmd
 
 
+" tern の設定
+let g:tern_map_keys=1
+let g:tern_show_argument_hints='on hold'
+
+
 " vim のプラグインマネージャー dein.vim の設定
 " https://github.com/Shougo/dein.vim
 if &compatible
