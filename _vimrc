@@ -77,6 +77,12 @@ call dein#add('scrooloose/nerdtree')
 " カラースキーム
 call dein#add('altercation/vim-colors-solarized')
 
+" Git の差分を表示する
+call dein#add('airblade/vim-gitgutter')
+
+" インデントを可視化
+call dein#add('nathanaelkane/vim-indent-guides')
+
 " ======== ここまで自分用プラグイン集
 
 
