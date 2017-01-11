@@ -28,8 +28,14 @@ set showcmd
 " vim が挿入するインデントの幅。
 set shiftwidth=2
 
-" タブ入力を複数の空白入力に置き換える
+" タブ入力を複数の空白入力に置き換える。
 set expandtab
+
+" 不可視文字を表示する。
+set list
+
+" タブを >--- 半角スペースを . で表示する。
+set listchars=tab:>-,trail:.
 
 
 " tern の設定
