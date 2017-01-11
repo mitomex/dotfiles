@@ -25,6 +25,12 @@ set autoread
 " 入力中のコマンドをステータスに表示する。
 set showcmd
 
+" vim が挿入するインデントの幅。
+set shiftwidth=2
+
+" タブ入力を複数の空白入力に置き換える
+set expandtab
+
 
 " tern の設定
 let g:tern_map_keys=1
