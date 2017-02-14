@@ -42,6 +42,9 @@ set listchars=tab:>-,trail:.
 let g:tern_map_keys=1
 let g:tern_show_argument_hints='on hold'
 
+" vim-jsx の設定。 .js ファイルにも反映する。
+let g:jsx_ext_required = 0
+
 
 " vim のプラグインマネージャー dein.vim の設定
 " https://github.com/Shougo/dein.vim
@@ -94,6 +97,14 @@ call dein#add('airblade/vim-gitgutter')
 
 " インデントを可視化
 call dein#add('nathanaelkane/vim-indent-guides')
+
+" JSX Syntax
+call dein#add('mxw/vim-jsx')
+
+" 閉じ括弧
+" call dein#add('townk/vim-autoclose')　（日本語が入力できなくなる）
+" call dein#add('docunext/closetag.vim')
+" call dein#add('rstacruz/vim-closer')
 
 " ======== ここまで自分用プラグイン集
 
