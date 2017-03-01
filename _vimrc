@@ -104,6 +104,9 @@ call dein#add('mxw/vim-jsx')
 " SCSS Syntax
 call dein#add('cakebaker/scss-syntax.vim')
 
+" JSON Syntax
+call dein#add('elzr/vim-json')
+
 " 閉じ括弧
 " call dein#add('townk/vim-autoclose')　（日本語が入力できなくなる）
 " call dein#add('docunext/closetag.vim')
