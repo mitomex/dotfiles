@@ -101,6 +101,9 @@ call dein#add('nathanaelkane/vim-indent-guides')
 " JSX Syntax
 call dein#add('mxw/vim-jsx')
 
+" SCSS Syntax
+call dein#add('cakebaker/scss-syntax.vim')
+
 " 閉じ括弧
 " call dein#add('townk/vim-autoclose')　（日本語が入力できなくなる）
 " call dein#add('docunext/closetag.vim')
