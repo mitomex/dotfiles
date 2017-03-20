@@ -45,6 +45,12 @@ let g:tern_show_argument_hints='on hold'
 " vim-jsx の設定。 .js ファイルにも反映する。
 let g:jsx_ext_required = 0
 
+" ESC の代わりに j j を
+:imap jj <Esc>
+
+" NERDTree 起動のショートカット
+nnoremap <Space>n  :NERDTree<CR>
+
 
 " vim のプラグインマネージャー dein.vim の設定
 " https://github.com/Shougo/dein.vim
@@ -104,8 +110,8 @@ call dein#add('mxw/vim-jsx')
 " SCSS Syntax
 call dein#add('cakebaker/scss-syntax.vim')
 
-" JSON Syntax
-call dein#add('elzr/vim-json')
+" ES6 Syntax
+call dein#add('isruslan/vim-es6')
 
 " 閉じ括弧
 " call dein#add('townk/vim-autoclose')　（日本語が入力できなくなる）
