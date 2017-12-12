@@ -51,6 +51,9 @@ let g:jsx_ext_required = 0
 " NERDTree 起動のショートカット
 nnoremap <Space>n  :NERDTree<CR>
 
+" JavaScript Libraries Syntax の設定
+let g:use_javascript_libs = 'underscore,backbone,jquery,handlebars,vue'
+
 
 " vim のプラグインマネージャー dein.vim の設定
 " https://github.com/Shougo/dein.vim
@@ -70,6 +73,9 @@ call dein#add('Shougo/neocomplete.vim')
 
 " Editorconfig用
 call dein#add('editorconfig/editorconfig-vim')
+
+" ColorSheme
+call dein#add('tomasr/molokai')
 
 " HTML5 syntax
 call dein#add('othree/html5.vim')
@@ -95,9 +101,6 @@ call dein#add('vim-airline/vim-airline')
 " ファイル管理用
 call dein#add('scrooloose/nerdtree')
 
-" カラースキーム
-call dein#add('altercation/vim-colors-solarized')
-
 " Git の差分を表示する
 call dein#add('airblade/vim-gitgutter')
 
@@ -113,10 +116,19 @@ call dein#add('cakebaker/scss-syntax.vim')
 " ES6 Syntax
 call dein#add('isruslan/vim-es6')
 
-" 閉じ括弧
-" call dein#add('townk/vim-autoclose')　（日本語が入力できなくなる）
-" call dein#add('docunext/closetag.vim')
-" call dein#add('rstacruz/vim-closer')
+" mustache handlebars
+call dein#add('mustache/vim-mustache-handlebars')
+
+" markdown preview
+call dein#add('JamshedVesuna/vim-markdown-preview')
+
+" JavaScript Libraries Syntax
+call dein#add('othree/javascript-libraries-syntax.vim')
+
+call dein#add('posva/vim-vue')
+
+" あいまいでファイルを開く
+call dein#add('ctrlpvim/ctrlp.vim')
 
 " ======== ここまで自分用プラグイン集
 
