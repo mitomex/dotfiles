@@ -130,6 +130,9 @@ call dein#add('posva/vim-vue')
 " あいまいでファイルを開く
 call dein#add('ctrlpvim/ctrlp.vim')
 
+" 閉じ括弧補完
+call dein#add('cohama/lexima.vim')
+
 " ======== ここまで自分用プラグイン集
 
 
