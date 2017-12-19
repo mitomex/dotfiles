@@ -54,6 +54,8 @@ nnoremap <Space>n  :NERDTree<CR>
 " JavaScript Libraries Syntax の設定
 let g:use_javascript_libs = 'underscore,backbone,jquery,handlebars,vue'
 
+" airline の設定
+let g:airline_powerline_fonts = 1
 
 " vim のプラグインマネージャー dein.vim の設定
 " https://github.com/Shougo/dein.vim
@@ -97,6 +99,10 @@ call dein#add('digitaltoad/vim-pug')
 
 " ステータスバー拡張
 call dein#add('vim-airline/vim-airline')
+call dein#add('vim-airline/vim-airline-themes')
+
+" ステータスバーにブランチ名を表示
+call dein#add('tpope/vim-fugitive')
 
 " ファイル管理用
 call dein#add('scrooloose/nerdtree')
@@ -131,7 +137,7 @@ call dein#add('posva/vim-vue')
 call dein#add('ctrlpvim/ctrlp.vim')
 
 " 閉じ括弧補完
-call dein#add('cohama/lexima.vim')
+" call dein#add('cohama/lexima.vim')
 
 " ======== ここまで自分用プラグイン集
 
